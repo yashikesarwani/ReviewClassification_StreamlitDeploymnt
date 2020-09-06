@@ -24,7 +24,6 @@ df['Score'] = df['Score'].replace([0],"Negative")
 
 
 
-
 x =df.iloc[:,-1].values
 y =df.iloc[:,0].values
 
